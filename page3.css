@@ -1,0 +1,77 @@
+body
+{
+    background-image: url(https://s17736.pcdn.co/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    border: 2px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: sandybrown;
+}
+.container-4
+{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 40px;
+    background-color: sandybrown;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.container-5
+{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 40px;
+    background-color: sandybrown;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.container2
+{
+    border: 2px solid black;
+    padding: 10px;
+}
+.container3
+{
+    padding: 40px;
+}
+#flex-box-result
+{
+background-color: white;
+color: blueviolet;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: crimson;
+margin-right: 25%;
+margin-left: 25%;
+}
+#flex-box-result:hover
+{
+background-color:red;
+color: white;
+padding-top: 6px;
+padding-bottom: 3px;
+}
+.flex-box-container,.flex-box-container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+.flex-box-container img{
+    border: 2px solid green;
+    box-shadow: 0px 20px 10px 5px red;
+    margin: 20px;;
+}
+.flex-box-container1 img:hover
+{
+    box-shadow: 10px 0px 5px 15px blue;
+    margin: 10px;
+}
